@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RT-IT Signature Generator</title>
+    <meta name="description" content="A quick and dirty signature generator for RT">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+        integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Email Signature Generator</h1>
+            <div class="columns">
+                <div class="column" id="your_details">
+                    <h2 class="subtitle">Your details</h2>
+                    <div class="field">
+                        <label class="label">Name</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="text" placeholder="Your name" name="name" value="">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+
+                            <div class="field">
+                                <label class="label">Position</label>
+                                <div class="control has-icons-left has-icons-right">
+                                    <input class="input" type="text" name="position" placeholder="Your position"
+                                        value="">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-briefcase"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="field">
+                                <label class="label">Company</label>
+                                <div class="control">
+                                    <div class="select">
+                                        <select name="company">
+                                            <option value="" selected disabled hidden>Select</option>
+                                            <option id="racetrack_pitstop">Racetrack Pitstop</option>
+                                            <option id="pitstop_deals">Pitstop Deals</option>
+                                            <option id="ghsl">GHSL</option>
+                                            <option id="vaped4u">Vaped4U</option>
+                                            <option id="tubbees">Tubbees</option>
+                                            <option id="octopus_autocare">Octopus Autocare</option>
+                                            <option id="racetrack_wow">Racetrack WOW</option>
+                                            <option id="rt_it_services">RT IT Services</option>
+                                            <option id="rt_autoport">RaceTrack Autoport</option>
+                                            <option id="rt_bridgeton">RaceTrack Bridgeton</option>
+                                            <option id="rt_rutherglen">RaceTrack Rutherglen</option>
+                                            <option id="rt_crowwood">RaceTrack Crowwood</option>
+                                            <option id="rt_braeside">RaceTrack Braeside</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="email" placeholder="Email" name="email" value="">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <label class="label">Phone</label>
+                    <div class="field has-addons">
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="phone" name="phone" placeholder="Phone number" value="">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-phone"></i>
+                            </span>
+                        </div>
+                        <div class="control is-expanded">
+                            <input class="input" type="phone" name="phoneExtension" placeholder="Extenstion" value="">
+                        </div>
+                    </div><br />
+                    <hr />
+                    <h2 class="subtitle">Preview</h2>
+                    <div id="previewArea"></div>
+
+                </div>
+                <div class="column">
+                    <h2 class="subtitle">Code</h2>
+                    <textarea class="textarea" name="code" id="code" placeholder="" rows="15" readonly></textarea>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <script src="./js/app.js" async defer></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</body>
+
+</html>
