@@ -12,14 +12,14 @@ function generateSignature() {
 	let location;
 	let logo;
 
-	//TODO This could feed from a JSON file
+	//TODO This could/should feed from a JSON file
 	switch (company) {
 		case "Racetrack Pitstop":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
 				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01413197174";
+				phone = "0141 319 7174";
 			}
 			url = "https://racetrackpitstop.co.uk";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -30,7 +30,7 @@ function generateSignature() {
 		case "Pitstop Deals":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01413197174";
+				phone = "0141 319 7174";
 			}
 			url = "pitstopdeals.co.uk";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -39,11 +39,12 @@ function generateSignature() {
 			color = "#BF1A1A";
 			break;
 		case "GHSL":
+			//TODO All three logos show for this one
 			location = "Ground Floor, 198 Nithsdale Road, Glasgow, G41 5EU";
 			logo =
 				"https://ghsl.uk/wp-content/uploads/2018/04/cropped-rsz_ghsl_logo.jpg";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01413197174";
+				phone = "0141 319 7174";
 			}
 			url = "https://ghsl.uk";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -56,7 +57,7 @@ function generateSignature() {
 			logo =
 				"https://vaped4u.com/wp-content/uploads/2019/07/vape4udp-07-07-256.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01413197174";
+				phone = "0141 319 7174";
 			}
 			url = "https://vaped4u.com";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -69,7 +70,7 @@ function generateSignature() {
 			logo =
 				"https://octopusautocare.co.uk/wp-content/uploads/2019/06/octopus-autocare-logo-01-e1569233210389.jpg";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01413197174";
+				phone = "0141 319 7174";
 			}
 			url = "https://octopusautocare.co.uk";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -77,16 +78,16 @@ function generateSignature() {
 			}
 			color = "#EC6813";
 			break;
-		case "Racetrack IT Services":
+		case "RT IT Services":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
 				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01413197174";
+				phone = "0141 319 7174";
 			}
 			url = "https://rt-itservices.co.uk";
 			if (document.getElementsByName("email")[0].value < 1) {
-				email = "info@racetrackpitstop.co.uk";
+				email = "info@rt-itservices.co.uk";
 			}
 			color = "#BF1A1A";
 			break;
@@ -95,7 +96,7 @@ function generateSignature() {
 			logo =
 				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01413197174";
+				phone = "0141 319 7174";
 			}
 			url = "https://racetrackwow.co.uk";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -108,7 +109,7 @@ function generateSignature() {
 			logo =
 				"https://tubbees.co.uk/wp-content/uploads/2019/06/tubbes-nitro-logo-01-300x300.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01413197375";
+				phone = "0141 319 7375";
 			}
 			url = "https://tubbees.co.uk";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -121,7 +122,7 @@ function generateSignature() {
 			logo =
 				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01412584646";
+				phone = "0141 258 4646";
 			}
 			if (document.getElementsByName("email")[0].value < 1) {
 				email = "autoport@racetrackpitstop.co.uk";
@@ -134,7 +135,7 @@ function generateSignature() {
 			logo =
 				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01412584160";
+				phone = "0141 258 4160";
 			}
 			if (document.getElementsByName("email")[0].value < 1) {
 				email = "bridgeton@racetrackpitstop.co.uk";
@@ -147,7 +148,7 @@ function generateSignature() {
 			logo =
 				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01416479308";
+				phone = "0141 647 9308";
 			}
 			if (document.getElementsByName("email")[0].value < 1) {
 				email = "rutherglen@racetrackpitstop.co.uk";
@@ -160,7 +161,7 @@ function generateSignature() {
 			logo =
 				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01419425029";
+				phone = "0141 942 5029";
 			}
 			if (document.getElementsByName("email")[0].value < 1) {
 				email = "bearsden@racetrackpitstop.co.uk";
@@ -174,7 +175,7 @@ function generateSignature() {
 			logo =
 				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01412372422";
+				phone = "0141 237 2422";
 			}
 			if (document.getElementsByName("email")[0].value < 1) {
 				email = "crowwood@racetrackpitstop.co.uk";
@@ -187,7 +188,7 @@ function generateSignature() {
 			logo =
 				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01417792779";
+				phone = "0141 779 2779";
 			}
 			if (document.getElementsByName("email")[0].value < 1) {
 				email = "braeside@racetrackpitstop.co.uk";
@@ -201,7 +202,7 @@ function generateSignature() {
 			logo =
 				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "01413197174";
+				phone = "0141 319 7174";
 			}
 			color = "#BF1A1A";
 			url = "https://racetrackpitstop.co.uk";
@@ -212,12 +213,12 @@ function generateSignature() {
 		phone = phone + "," + phoneExtension;
 	}
 
-	let generatedHTML = `<div><table cellPadding="0" cellSpacing="0"><tbody><tr><td colSpan="2"><div style="padding-bottom:15px"><div><strong>${name}</strong></div><div><span style="color: #878787; font-size: 10pt;">${position}<br/>${company}</span></div></div></td></tr><tr><td style="vertical-align:top"><a href="${url}" target="_blank"><img alt="${company} Logo" src="${logo}" width="100%" height="100%" style="max-width:60px;max-height:60px"/></a></td><td><div style="font-size:0.9em;white-space:nowrap;border-left:2px solid ${color};margin-left:20px;padding-left:20px"><div><div><span>w: </span><a style="color:${color}" href="${url}" target="_blank">${url.replace(
+	let generatedHTML = `<div><table cellPadding="0" cellSpacing="0"><tbody><tr><td colSpan="2"><div style="padding-bottom:15px"><div><strong>${name}</strong></div><div><span style="color: #878787; font-size: 10pt;">${position}<br/>${company}</span></div></div></td></tr><tr><td style="vertical-align:top"><a href="${url}" target="_blank"><img alt="${company} Logo" src="${logo}" height="100%" style="max-height:80px;padding:10px;"/></a></td><td><div style="font-size:0.9em;white-space:nowrap;border-left:2px solid ${color};margin-left:0;padding-left:20px"><div><div><span>w: </span><a style="color:${color}" href="${url}" target="_blank">${url.replace(
 		"https://",
 		""
 	)}</a></div><div><span>e: </span><a style="color:${color}" href="mailto:${email}">${email}</a></div><div><span style="margin-right:8px"><span>p: </span><a style="color:${color}" href="tel:${phone}">${phone.replace(
 		",",
-		" #"
+		"&nbsp;&nbsp;&nbsp;ext. #"
 	)}</a></span></div><div><span>a: </span><a style="color:${color}" href="https://maps.google.com/?q=${location}" target="_blank">${location}</a></div><div></div></div></div></td></tr><br/><br/><tr><td style="font-size: 8pt; padding-top:35px; color: #878787;" colspan="2" width="400"><span style="font-family: arial, sans-serif; color: #878787;">The content of this email is confidential and intended for the recipient specified in message only. It is strictly forbidden to share any part of this message with any third party, without written consent of the sender. If you received this message by mistake, please reply to this message and follow with its deletion, so that we can ensure such a mistake does not occur in the future.</span></td></tbody></table></div>`;
 
 	document.getElementById("previewArea").innerHTML = generatedHTML;
