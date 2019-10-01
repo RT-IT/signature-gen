@@ -11,13 +11,13 @@ function generateSignature() {
 	let phoneExtension = document.getElementsByName("phoneExtension")[0].value;
 	let location;
 	let logo;
-
+	let extra = "";
 	//TODO This could/should feed from a JSON file
 	switch (company) {
 		case "Racetrack Pitstop":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -29,6 +29,8 @@ function generateSignature() {
 			break;
 		case "Pitstop Deals":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
+			logo =
+				"https://pitstopdeals.co.uk/wp-content/uploads/2019/10/email-logos-07.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -39,10 +41,8 @@ function generateSignature() {
 			color = "#BF1A1A";
 			break;
 		case "GHSL":
-			//TODO All three logos show for this one
 			location = "Ground Floor, 198 Nithsdale Road, Glasgow, G41 5EU";
-			logo =
-				"https://ghsl.uk/wp-content/uploads/2018/04/cropped-rsz_ghsl_logo.jpg";
+			logo = "https://ghsl.uk/wp-content/uploads/2019/10/email-logos-06.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -51,11 +51,23 @@ function generateSignature() {
 				email = "info@ghsl.uk";
 			}
 			color = "#BF1A1A";
+			extra = `<tr>
+			<td style="vertical-align:top; float: left;"><a href="https://racetrackpitstop.co.uk" target="_blank"><img alt="Racetrack Logo" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://tubbees.co.uk" target="_blank"><img alt="Tubbees Logo" src="https://tubbees.co.uk/wp-content/uploads/2019/10/email-logos-05.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://vaped4u.com" target="_blank"><img alt="Vaped4U Logo" src="https://vaped4u.com/wp-content/uploads/2019/10/email-logos-02.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://octopusautocare.co.uk/" target="_blank"><img alt="Octoput Autocare Logo" src="https://octopusautocare.co.uk/wp-content/uploads/2019/10/email-logos-04.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
+			</tr> 
+			<tr>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Forecourt Innovation" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Forecourt-Innovation.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Scotland up to 4MLPA" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Scotland-up-to-4MLPA.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Foot-To-Go Outlet" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Food-to-Go-Outlet.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			</tr>
+			`;
 			break;
 		case "Vaped4U":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://vaped4u.com/wp-content/uploads/2019/07/vape4udp-07-07-256.png";
+				"https://vaped4u.com/wp-content/uploads/2019/10/email-logos-02.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -68,7 +80,7 @@ function generateSignature() {
 		case "Octopus Autocare":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://octopusautocare.co.uk/wp-content/uploads/2019/06/octopus-autocare-logo-01-e1569233210389.jpg";
+				"https://octopusautocare.co.uk/wp-content/uploads/2019/10/email-logos-04.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -94,7 +106,7 @@ function generateSignature() {
 		case "Racetrack WOW":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
+				"https://racetrackwow.co.uk/wp-content/uploads/2019/10/email-logos-08.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -107,7 +119,7 @@ function generateSignature() {
 		case "Tubbees":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://tubbees.co.uk/wp-content/uploads/2019/06/tubbes-nitro-logo-01-300x300.png";
+				"https://tubbees.co.uk/wp-content/uploads/2019/10/email-logos-05.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7375";
 			}
@@ -120,7 +132,7 @@ function generateSignature() {
 		case "RaceTrack Autoport":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 258 4646";
 			}
@@ -129,11 +141,16 @@ function generateSignature() {
 			}
 			url = "https://racetrackpitstop.co.uk";
 			color = "#BF1A1A";
+			extra = `<tr>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Forecourt Innovation" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Forecourt-Innovation.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Scotland up to 4MLPA" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Scotland-up-to-4MLPA.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Foot-To-Go Outlet" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Food-to-Go-Outlet.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			</tr>`;
 			break;
 		case "RaceTrack Bridgeton":
 			location = "723 London Road, Glasgow, G40 3AS";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 258 4160";
 			}
@@ -146,7 +163,7 @@ function generateSignature() {
 		case "RaceTrack Rutherglen":
 			location = "273 Main Street, Rutherglen, G73 1EE";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 647 9308";
 			}
@@ -159,7 +176,7 @@ function generateSignature() {
 		case "RaceTrack Bearsden":
 			location = "23-25 Duntocher Road, Bearsden, G61 4DE";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 942 5029";
 			}
@@ -173,7 +190,7 @@ function generateSignature() {
 		case "RaceTrack Crowwood":
 			location = "71 Cumbernauld Road, Glasgow, G69 9AD";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 237 2422";
 			}
@@ -186,7 +203,7 @@ function generateSignature() {
 		case "RaceTrack Braeside":
 			location = "224 Cumbernauld Road, Glasgow, G69 9NB";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 779 2779";
 			}
@@ -200,7 +217,7 @@ function generateSignature() {
 		default:
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -213,13 +230,13 @@ function generateSignature() {
 		phone = phone + "," + phoneExtension;
 	}
 
-	let generatedHTML = `<div><table cellPadding="0" cellSpacing="0"><tbody><tr><td colSpan="2"><div style="padding-bottom:15px"><div><strong>${name}</strong></div><div><span style="color: #878787; font-size: 10pt;">${position}<br/>${company}</span></div></div></td></tr><tr><td style="vertical-align:top"><a href="${url}" target="_blank"><img alt="${company} Logo" src="${logo}" height="100%" style="max-height:80px;padding:10px;"/></a></td><td><div style="font-size:0.9em;white-space:nowrap;border-left:2px solid ${color};margin-left:0;padding-left:20px"><div><div><span>w: </span><a style="color:${color}" href="${url}" target="_blank">${url.replace(
+	let generatedHTML = `<div><table cellPadding="0" cellSpacing="0"><tbody><tr><td colSpan="2"><div style="padding-bottom:15px"><div><strong>${name}</strong></div><div><span style="color: #878787; font-size: 10pt;">${position}<br/>${company}</span></div></div></td></tr><tr><td style="vertical-align:top; float: left;"><a href="${url}" target="_blank"><img alt="${company} Logo" src="${logo}" height="100%" style="max-height:80px;padding:10px;"/></a></td><td style="float: left;"><div style="font-size:0.9em;white-space:nowrap;border-left:2px solid ${color};margin-left:0;padding-left:20px"><div><div><span>w: </span><a style="color:${color}" href="${url}" target="_blank">${url.replace(
 		"https://",
 		""
 	)}</a></div><div><span>e: </span><a style="color:${color}" href="mailto:${email}">${email}</a></div><div><span style="margin-right:8px"><span>p: </span><a style="color:${color}" href="tel:${phone}">${phone.replace(
 		",",
 		"&nbsp;&nbsp;&nbsp;ext. #"
-	)}</a></span></div><div><span>a: </span><a style="color:${color}" href="https://maps.google.com/?q=${location}" target="_blank">${location}</a></div><div></div></div></div></td></tr><br/><br/><tr><td style="font-size: 8pt; padding-top:35px; color: #878787;" colspan="2" width="400"><span style="font-family: arial, sans-serif; color: #878787;">The content of this email is confidential and intended for the recipient specified in message only. It is strictly forbidden to share any part of this message with any third party, without written consent of the sender. If you received this message by mistake, please reply to this message and follow with its deletion, so that we can ensure such a mistake does not occur in the future.</span></td></tbody></table></div>`;
+	)}</a></span></div><div><span>a: </span><a style="color:${color}" href="https://maps.google.com/?q=${location}" target="_blank">${location}</a></div><div></div></div></div></td></tr><br/>${extra}<br/><tr><td style="font-size: 8pt; padding-top:35px; color: #878787;" colspan="2" width="400"><span style="font-family: arial, sans-serif; color: #878787;">The content of this email is confidential and intended for the recipient specified in message only. It is strictly forbidden to share any part of this message with any third party, without written consent of the sender. If you received this message by mistake, please reply to this message and follow with its deletion, so that we can ensure such a mistake does not occur in the future.</span></td></tbody></table></div>`;
 
 	document.getElementById("previewArea").innerHTML = generatedHTML;
 	document.getElementById("code").value = `${generatedHTML}`;
