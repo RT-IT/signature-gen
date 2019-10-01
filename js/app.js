@@ -17,7 +17,7 @@ function generateSignature() {
 		case "Racetrack Pitstop":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -27,9 +27,9 @@ function generateSignature() {
 			}
 			color = "#BF1A1A";
 			extra = `<tr>
-			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Forecourt Innovation" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Forecourt-Innovation.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
-			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Scotland up to 4MLPA" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Scotland-up-to-4MLPA.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
-			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Foot-To-Go Outlet" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Food-to-Go-Outlet.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Forecourt Innovation" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Forecourt-Innovation-e1569924818410.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Scotland up to 4MLPA" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Scotland-up-to-4MLPA-e1569924806229.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Foot-To-Go Outlet" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Food-to-Go-Outlet-e1569924772756.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
 			</tr>`;
 			break;
 		case "Pitstop Deals":
@@ -57,15 +57,15 @@ function generateSignature() {
 			}
 			color = "#BF1A1A";
 			extra = `<tr>
-			<td style="vertical-align:top; float: left;"><a href="https://racetrackpitstop.co.uk" target="_blank"><img alt="Racetrack Logo" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://racetrackpitstop.co.uk" target="_blank"><img alt="Racetrack Logo" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
 			<td style="vertical-align:top; float: left;"><a href="https://tubbees.co.uk" target="_blank"><img alt="Tubbees Logo" src="https://tubbees.co.uk/wp-content/uploads/2019/10/email-logos-05.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
 			<td style="vertical-align:top; float: left;"><a href="https://vaped4u.com" target="_blank"><img alt="Vaped4U Logo" src="https://vaped4u.com/wp-content/uploads/2019/10/email-logos-02.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
 			<td style="vertical-align:top; float: left;"><a href="https://octopusautocare.co.uk/" target="_blank"><img alt="Octoput Autocare Logo" src="https://octopusautocare.co.uk/wp-content/uploads/2019/10/email-logos-04.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
 			</tr> 
 			<tr>
-			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Forecourt Innovation" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Forecourt-Innovation.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
-			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Scotland up to 4MLPA" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Scotland-up-to-4MLPA.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
-			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Foot-To-Go Outlet" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Food-to-Go-Outlet.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Forecourt Innovation" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Forecourt-Innovation-e1569924818410.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Scotland up to 4MLPA" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Scotland-up-to-4MLPA-e1569924806229.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Foot-To-Go Outlet" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Food-to-Go-Outlet-e1569924772756.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
 			</tr>
 			`;
 			break;
@@ -98,7 +98,7 @@ function generateSignature() {
 		case "RT IT Services":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/04/rtlogo-02-e1569925212420.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -137,7 +137,7 @@ function generateSignature() {
 		case "RaceTrack Autoport":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 258 4646";
 			}
@@ -147,15 +147,15 @@ function generateSignature() {
 			url = "https://racetrackpitstop.co.uk";
 			color = "#BF1A1A";
 			extra = `<tr>
-			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Forecourt Innovation" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Forecourt-Innovation.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
-			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Scotland up to 4MLPA" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Scotland-up-to-4MLPA.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
-			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Foot-To-Go Outlet" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Food-to-Go-Outlet.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Forecourt Innovation" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Forecourt-Innovation-e1569924818410.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Scotland up to 4MLPA" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Scotland-up-to-4MLPA-e1569924806229.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Foot-To-Go Outlet" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Food-to-Go-Outlet-e1569924772756.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
 			</tr>`;
 			break;
 		case "RaceTrack Bridgeton":
 			location = "723 London Road, Glasgow, G40 3AS";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 258 4160";
 			}
@@ -168,7 +168,7 @@ function generateSignature() {
 		case "RaceTrack Rutherglen":
 			location = "273 Main Street, Rutherglen, G73 1EE";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 647 9308";
 			}
@@ -181,7 +181,7 @@ function generateSignature() {
 		case "RaceTrack Bearsden":
 			location = "23-25 Duntocher Road, Bearsden, G61 4DE";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 942 5029";
 			}
@@ -195,7 +195,7 @@ function generateSignature() {
 		case "RaceTrack Crowwood":
 			location = "71 Cumbernauld Road, Glasgow, G69 9AD";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 237 2422";
 			}
@@ -208,7 +208,7 @@ function generateSignature() {
 		case "RaceTrack Braeside":
 			location = "224 Cumbernauld Road, Glasgow, G69 9NB";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 779 2779";
 			}
@@ -222,7 +222,7 @@ function generateSignature() {
 		default:
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03.png";
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
