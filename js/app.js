@@ -26,6 +26,11 @@ function generateSignature() {
 				email = "info@racetrackpitstop.co.uk";
 			}
 			color = "#BF1A1A";
+			extra = `<tr>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Forecourt Innovation" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Forecourt-Innovation.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Scotland up to 4MLPA" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Scotland-up-to-4MLPA.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Foot-To-Go Outlet" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Food-to-Go-Outlet.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			</tr>`;
 			break;
 		case "Pitstop Deals":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
