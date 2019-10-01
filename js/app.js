@@ -35,7 +35,7 @@ function generateSignature() {
 		case "Pitstop Deals":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://pitstopdeals.co.uk/wp-content/uploads/2019/10/email-logos-07.png";
+				"https://pitstopdeals.co.uk/wp-content/uploads/2019/10/email-logos-07-e1569925437281.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -47,7 +47,8 @@ function generateSignature() {
 			break;
 		case "GHSL":
 			location = "Ground Floor, 198 Nithsdale Road, Glasgow, G41 5EU";
-			logo = "https://ghsl.uk/wp-content/uploads/2019/10/email-logos-06.png";
+			logo =
+				"https://ghsl.uk/wp-content/uploads/2019/10/email-logos-06-e1569925531138.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -58,9 +59,9 @@ function generateSignature() {
 			color = "#BF1A1A";
 			extra = `<tr>
 			<td style="vertical-align:top; float: left;"><a href="https://racetrackpitstop.co.uk" target="_blank"><img alt="Racetrack Logo" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
-			<td style="vertical-align:top; float: left;"><a href="https://tubbees.co.uk" target="_blank"><img alt="Tubbees Logo" src="https://tubbees.co.uk/wp-content/uploads/2019/10/email-logos-05.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
-			<td style="vertical-align:top; float: left;"><a href="https://vaped4u.com" target="_blank"><img alt="Vaped4U Logo" src="https://vaped4u.com/wp-content/uploads/2019/10/email-logos-02.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
-			<td style="vertical-align:top; float: left;"><a href="https://octopusautocare.co.uk/" target="_blank"><img alt="Octoput Autocare Logo" src="https://octopusautocare.co.uk/wp-content/uploads/2019/10/email-logos-04.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://tubbees.co.uk" target="_blank"><img alt="Tubbees Logo" src="https://tubbees.co.uk/wp-content/uploads/2019/10/email-logos-05-e1569925958420.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://vaped4u.com" target="_blank"><img alt="Vaped4U Logo" src="https://vaped4u.com/wp-content/uploads/2019/10/email-logos-02-e1569925665360.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://octopusautocare.co.uk/" target="_blank"><img alt="Octoput Autocare Logo" src="https://octopusautocare.co.uk/wp-content/uploads/2019/10/email-logos-04-e1569925789212.png" height="100%" style="max-height:80px;padding:10px;"/></a></td>
 			</tr> 
 			<tr>
 			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Forecourt Innovation" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Forecourt-Innovation-e1569924818410.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
@@ -72,7 +73,7 @@ function generateSignature() {
 		case "Vaped4U":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://vaped4u.com/wp-content/uploads/2019/10/email-logos-02.png";
+				"https://vaped4u.com/wp-content/uploads/2019/10/email-logos-02-e1569925665360.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -85,7 +86,7 @@ function generateSignature() {
 		case "Octopus Autocare":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://octopusautocare.co.uk/wp-content/uploads/2019/10/email-logos-04.png";
+				"https://octopusautocare.co.uk/wp-content/uploads/2019/10/email-logos-04-e1569925789212.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -111,7 +112,7 @@ function generateSignature() {
 		case "Racetrack WOW":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://racetrackwow.co.uk/wp-content/uploads/2019/10/email-logos-08.png";
+				"https://racetrackwow.co.uk/wp-content/uploads/2019/10/email-logos-08-e1569925893766.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7174";
 			}
@@ -124,7 +125,7 @@ function generateSignature() {
 		case "Tubbees":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
-				"https://tubbees.co.uk/wp-content/uploads/2019/10/email-logos-05.png";
+				"https://tubbees.co.uk/wp-content/uploads/2019/10/email-logos-05-e1569925958420.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 7375";
 			}
