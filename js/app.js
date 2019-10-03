@@ -19,7 +19,7 @@ function generateSignature() {
 			logo =
 				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "0141 319 7174";
+				phone = "0141 319 8451";
 			}
 			url = "https://racetrackpitstop.co.uk";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -37,7 +37,7 @@ function generateSignature() {
 			logo =
 				"https://pitstopdeals.co.uk/wp-content/uploads/2019/10/email-logos-07-e1569925437281.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "0141 319 7174";
+				phone = "0141 319 8451";
 			}
 			url = "pitstopdeals.co.uk";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -50,7 +50,7 @@ function generateSignature() {
 			logo =
 				"https://ghsl.uk/wp-content/uploads/2019/10/email-logos-06-e1569925531138.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "0141 319 7174";
+				phone = "0141 319 8451";
 			}
 			url = "https://ghsl.uk";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -75,7 +75,7 @@ function generateSignature() {
 			logo =
 				"https://vaped4u.com/wp-content/uploads/2019/10/email-logos-02-e1569925665360.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "0141 319 7174";
+				phone = "0141 530 3111";
 			}
 			url = "https://vaped4u.com";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -88,7 +88,7 @@ function generateSignature() {
 			logo =
 				"https://octopusautocare.co.uk/wp-content/uploads/2019/10/email-logos-04-e1569925789212.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "0141 319 7174";
+				phone = "0141 319 8451";
 			}
 			url = "https://octopusautocare.co.uk";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -114,7 +114,7 @@ function generateSignature() {
 			logo =
 				"https://racetrackwow.co.uk/wp-content/uploads/2019/10/email-logos-08-e1569925893766.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
-				phone = "0141 319 7174";
+				phone = "0141 319 8451";
 			}
 			url = "https://racetrackwow.co.uk";
 			if (document.getElementsByName("email")[0].value < 1) {
@@ -152,6 +152,19 @@ function generateSignature() {
 			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Scotland up to 4MLPA" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Scotland-up-to-4MLPA-e1569924806229.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
 			<td style="vertical-align:top; float: left;"><a href="https://www.forecourttraderawards.co.uk/2019-winners/" target="_blank"><img alt="Best Foot-To-Go Outlet" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/FCTAwards19_Logo_Winner_HighRes_Best-Food-to-Go-Outlet-e1569924772756.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
 			</tr>`;
+			break;
+		case "Subway Bridgeton":
+			location = "723 London Road, Glasgow, G40 3AS";
+			logo =
+				"https://ghsl.uk/wp-content/uploads/2019/10/email-logos-06-e1569925531138.png";
+			if (document.getElementsByName("phone")[0].value < 1) {
+				phone = "0141 319 8451";
+			}
+			url = "https://ghsl.uk";
+			if (document.getElementsByName("email")[0].value < 1) {
+				email = "bridgeton.subway@ghsl.uk";
+			}
+			color = "#BF1A1A";
 			break;
 		case "RaceTrack Bridgeton":
 			location = "723 London Road, Glasgow, G40 3AS";
