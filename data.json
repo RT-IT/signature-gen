@@ -1,0 +1,84 @@
+[{
+        "name": "Racetrack Pitstop",
+        "address": "675 Paisley Road West, Glasgow, G51 1RP",
+        "phone_number": "0141 319 8451",
+        "email": "info@racetrackpitstop.co.uk",
+        "branding": {
+            "colour1": "#1D1D1B",
+            "colour2": "#BF1A1A"
+        },
+        "logo": "https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png"
+    }, {
+        "name": "Pitstop Deals",
+        "address": "675 Paisley Road West, Glasgow, G51 1RP",
+        "phone_number": "0141 319 8451",
+        "email": "info@racetrackpitstop.co.uk",
+        "branding": {
+            "colour1": "#1D1D1B",
+            "colour2": "#BF1A1A"
+        },
+        "logo": "https://pitstopdeals.co.uk/wp-content/uploads/2019/10/email-logos-07-e1569925437281.png"
+    }, {
+        "name": "GHSL",
+        "address": "Ground Floor, 198 Nithsdale Road, Glasgow, G41 5EU",
+        "phone_number": "0141 319 8451",
+        "email": "info@ghsl.uk",
+        "branding": {
+            "colour1": "#1D1D1B",
+            "colour2": "#BF1A1A"
+        },
+        "logo": "https://ghsl.uk/wp-content/uploads/2019/10/email-logos-06-e1569925531138.png"
+    }, {
+        "name": "Vaped4U",
+        "address": "675 Paisley Road West, Glasgow, G51 1RP",
+        "phone_number": "0141 530 3111",
+        "email": "info@vaped4u.com",
+        "branding": {
+            "colour1": "#78c8cd",
+            "colour2": "#ee7975"
+        },
+        "logo": "https://vaped4u.com/wp-content/uploads/2019/10/email-logos-02-e1569925665360.png"
+    }, {
+        "name": "Octopus Autocare",
+        "address": "675 Paisley Road West, Glasgow, G51 1RP",
+        "phone_number": "0141 319 8451",
+        "email": "info@octopusautocare.co.uk",
+        "branding": {
+            "colour1": "#10395b",
+            "colour2": "#EC6813"
+        },
+        "logo": "https://octopusautocare.co.uk/wp-content/uploads/2019/10/email-logos-04-e1569925789212.png"
+    }, {
+        "name": "Racetrack WOW",
+        "address": "675 Paisley Road West, Glasgow, G51 1RP",
+        "phone_number": "0141 319 8451",
+        "email": "info@racetrackwow.co.uk",
+        "branding": {
+            "colour1": "#1D1D1B",
+            "colour2": "#BF1A1A"
+        },
+        "logo": "https://racetrackwow.co.uk/wp-content/uploads/2019/10/email-logos-08-e1569925893766.png"
+    }, {
+        "name": "Tubbees",
+        "address": "675 Paisley Road West, Glasgow, G51 1RP",
+        "phone_number": "0141 319 8451",
+        "email": "info@tubbees.co.uk",
+        "branding": {
+            "colour1": "#5cb8b2",
+            "colour2": "#f4a9c2"
+        },
+        "logo": "https://tubbees.co.uk/wp-content/uploads/2019/10/email-logos-05-e1569925958420.png"
+    }, {
+        "name": "RaceTrack Autoport",
+        "address": "675 Paisley Road West, Glasgow, G51 1RP",
+        "phone_number": "0141 258 4646",
+        "email": "autoport@racetrackpitstop.co.uk",
+        "branding": {
+            "colour1": "#5cb8b2",
+            "colour2": "#f4a9c2"
+        },
+        "logo": "https://racetrackwow.co.uk/wp-content/uploads/2019/10/email-logos-08-e1569925893766.png"
+    }
+
+
+]

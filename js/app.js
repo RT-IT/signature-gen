@@ -109,6 +109,19 @@ function generateSignature() {
 			}
 			color = "#BF1A1A";
 			break;
+		case "RT Maintenance Services":
+			location = "Ground Floor, 198 Nithsdale Road, Glasgow, G41 5EU";
+			logo =
+				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/rtm-services-logo-01.png";
+			if (document.getElementsByName("phone")[0].value < 1) {
+				phone = "0141 530 3106";
+			}
+			url = "https://rtmsuk.com";
+			if (document.getElementsByName("email")[0].value < 1) {
+				email = "info@rtmsuk.com";
+			}
+			color = "#BF1A1A";
+			break;
 		case "Racetrack WOW":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo =
