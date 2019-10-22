@@ -46,7 +46,7 @@ function generateSignature() {
 			color = "#BF1A1A";
 			break;
 		case "GHSL":
-			location = "Ground Floor, 198 Nithsdale Road, Glasgow, G41 5EU";
+			location = "Basement Flat, 198 Nithsdale Road, Glasgow, G41 5EU";
 			logo =
 				"https://ghsl.uk/wp-content/uploads/2019/10/email-logos-06-e1569925531138.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
@@ -110,7 +110,7 @@ function generateSignature() {
 			color = "#BF1A1A";
 			break;
 		case "RT Maintenance Services":
-			location = "Ground Floor, 198 Nithsdale Road, Glasgow, G41 5EU";
+			location = "Basement Flat, 198 Nithsdale Road, Glasgow, G41 5EU";
 			logo =
 				"https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/rtm-services-logo-01.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
