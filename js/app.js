@@ -268,7 +268,12 @@ function generateSignature() {
 	)}</a></div><div><span>e: </span><a style="color:${color}" href="mailto:${email}">${email}</a></div><div><span style="margin-right:8px"><span>p: </span><a style="color:${color}" href="tel:${phone}">${phone.replace(
 		",",
 		"&nbsp;&nbsp;&nbsp;ext. #"
-	)}</a></span></div><div><span>a: </span><a style="color:${color}" href="https://maps.google.com/?q=${location}" target="_blank">${location}</a></div><div></div></div></div></td></tr><br/>${extra}<br/><tr><td style="font-size: 8pt; padding-top:35px; color: #878787;" colspan="2" width="400"><span style="font-family: arial, sans-serif; color: #878787;">The content of this email is confidential and intended for the recipient specified in message only. It is strictly forbidden to share any part of this message with any third party, without written consent of the sender. If you received this message by mistake, please reply to this message and follow with its deletion, so that we can ensure such a mistake does not occur in the future.</span></td></tbody></table></div>`;
+	)}</a></span></div><div><span>a: </span><a style="color:${color}" href="https://maps.google.com/?q=${location
+		.replace(" ", "+")
+		.replace(
+			",",
+			""
+		)}" target="_blank">${location}</a></div><div></div></div></div></td></tr><br/>${extra}<br/><tr><td style="font-size: 8pt; padding-top:35px; color: #878787;" colspan="2" width="400"><span style="font-family: arial, sans-serif; color: #878787;">The content of this email is confidential and intended for the recipient specified in message only. It is strictly forbidden to share any part of this message with any third party, without written consent of the sender. If you received this message by mistake, please reply to this message and follow with its deletion, so that we can ensure such a mistake does not occur in the future.</span></td></tbody></table></div>`;
 
 	document.getElementById("previewArea").innerHTML = generatedHTML;
 	document.getElementById("code").value = `${generatedHTML}`;
