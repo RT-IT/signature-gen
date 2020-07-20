@@ -65,6 +65,18 @@ function generateSignature() {
 			</tr>
 			`;
 			break;
+		case "GHSL Trading":
+			location = "Basement Flat, 198 Nithsdale Road, Glasgow, G41 5EU";
+			logo = "https://ghsltrading.com/images/email-sig/2020.png";
+			if (document.getElementsByName("phone")[0].value < 1) {
+				phone = "0141 319 8451";
+			}
+			url = "https://ghsltrading.com/";
+			if (document.getElementsByName("email")[0].value < 1) {
+				email = "info@ghsltrading.com";
+			}
+			color = "#BF1A1A";
+			break;
 		case "Vaped4U":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo = "https://vaped4u.com/wp-content/uploads/2019/10/email-logos-02-e1569925665360.png";
@@ -228,6 +240,7 @@ function generateSignature() {
 			color = "#BF1A1A";
 
 			break;
+
 		default:
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
 			logo = "https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png";
