@@ -67,7 +67,7 @@ function generateSignature() {
 			break;
 		case "GHSL Trading":
 			location = "Basement Flat, 198 Nithsdale Road, Glasgow, G41 5EU";
-			logo = "https://ghsltrading.com/images/email-sig/2020.png";
+			logo = "https://ghsltrading.com/images/emails/GHSL-logo.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 319 8451";
 			}
