@@ -115,7 +115,7 @@ function generateSignature() {
 			break;
 		case "RT Maintenance Services":
 			location = "Basement Flat, 198 Nithsdale Road, Glasgow, G41 5EU";
-			logo = "https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/rtm-services-logo-01.png";
+			logo = "https://rtmsuk.com/wp-content/uploads/2020/08/Logo80x80.png";
 			if (document.getElementsByName("phone")[0].value < 1) {
 				phone = "0141 530 3106";
 			}
@@ -124,6 +124,12 @@ function generateSignature() {
 				email = "info@rtmsuk.com";
 			}
 			color = "#BF1A1A";
+			extra = `
+			<br/><tr><td style="vertical-align:top; float: left;"><span style="color: #878787; font-size: 10pt;">Main Contractors for RaceTrack Pitstop and Tubbees.</span></td></tr>
+			<tr>
+			<td style="vertical-align:top; float: left;"><a href="https://racetrackpitstop.co.uk" target="_blank"><img alt="Racetrack Pitstop" src="https://racetrackpitstop.co.uk/wp-content/uploads/2019/10/email-logos-03-e1569924636507.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			<td style="vertical-align:top; float: left;"><a href="https://tubbees.co.uk" target="_blank"><img alt="Tubbees" src="https://tubbees.co.uk/wp-content/uploads/2019/10/email-logos-05-e1569925958420.png" height="100%" style="max-height:120px;padding:10px;"/></a></td>
+			</tr>`;
 			break;
 		case "Racetrack WOW":
 			location = "675 Paisley Road West, Glasgow, G51 1RP";
